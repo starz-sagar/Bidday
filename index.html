@@ -1,0 +1,1061 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">   
+    <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+</head>
+
+
+
+
+
+<body>
+
+    
+
+
+
+
+
+    <div class="topbar">
+
+        <div class="top-left">
+            Logo
+        </div>
+
+        <div class="top-center">
+
+            <div class="tool-tab active-tab" id="explorer-tab">
+                Explorer
+            </div>
+
+            <div class="tool-tab" id="screencast-tab">
+                Screencast
+            </div>
+
+            <div class="tool-tab" id="shell-tab">
+                Shell
+            </div>
+
+            <div class="tool-tab" id="audio-tab">
+                Audio
+            </div>
+
+            <div class="tool-tab" id="config-tab">
+                Config
+            </div>
+
+        </div>
+
+        <div class="top-right">
+            Profile
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+    <div class="main-container">
+        
+        
+
+
+        <div class="sidebar">
+
+
+
+            <div class="sidebar-content">
+
+
+
+
+                <div class="device-list">
+
+
+
+
+
+                    <div class="panel-header">
+                        Devices
+                    </div>
+                    <div class="device-search">
+                        <input
+                            type="text"
+                            placeholder="Search devices..."
+                            id="device-search"
+                        >
+                    </div>
+
+
+
+
+                    <div class="devices-container">
+
+
+                        <div
+                            class="device-card"
+                            data-name="OFFICE-PC-01"
+                            data-ip="192.168.1.5"
+                            data-status="Online"
+                        >
+                            <div class="device-header">
+
+                                <div class="device-name">
+
+                                    <span class="material-symbols-outlined">
+                                        desktop_windows
+                                    </span>
+
+                                    OFFICE-PC-01
+                                </div>
+
+                                <span class="material-symbols-outlined expand-arrow">
+                                    expand_more
+                                </span>
+
+                            </div>
+
+                            <div class="device-status online-status">
+                                Online
+                            </div>
+
+                            <div class="device-ip">
+                                192.168.1.5
+                            </div>
+
+                            
+
+                            <div class="device-extra">
+
+                                <div>OS: Windows 11 Pro</div>
+
+                                <div>Uptime: 5h 22m</div>
+
+                            </div>
+
+                        </div>
+
+                        <div
+                            class="device-card"
+                            data-name="DESIGN-LAPTOP"
+                            data-ip="192.168.1.10"
+                            data-status="Offline"
+                        >
+                            <div class="device-header">
+                                <div class="device-name">
+
+                                    <span class="material-symbols-outlined">
+                                        laptop_mac
+                                    </span>
+
+                                    DESIGN-LAPTOP
+                                </div>
+                                <span class="material-symbols-outlined expand-arrow">
+                                    expand_more
+                                </span>
+                            </div>
+                            <div class="device-status offline-status">
+                                Offline
+                            </div>
+                            <div class="device-ip">
+                                192.168.1.10
+                            </div>
+
+                            <div class="device-extra">
+
+                                <div>OS: Windows 10</div>
+
+                                <div>Uptime: 9h 2m</div>
+
+                            </div>
+                        </div>
+
+                        <div
+                            class="device-card"
+                            data-name="SERVER-01"
+                            data-ip="192.168.1.20"
+                            data-status="Online"
+                        >
+                            <div class="device-header">
+                                <div class="device-name">
+
+                                    <span class="material-symbols-outlined">
+                                        dns
+                                    </span>
+                                    SERVER-01
+                                </div>
+                                <span class="material-symbols-outlined expand-arrow">
+                                    expand_more
+                                </span>
+                            </div>
+                            <div class="device-status online-status">
+                                Online
+                            </div>
+                            <div class="device-ip">
+                                192.168.1.20
+                            </div>
+
+                            <div class="device-extra">
+
+                                <div>OS: Ubuntu Server 22.04</div>
+
+                                <div>Uptime: 15d 4h</div>
+                            </div>
+                        </div>
+
+                        <div
+                            class="device-card"
+                            data-name="ANDRO案-PHONE"
+                            data-ip="192.168.1.30"
+                            data-status="Online"
+                        >
+                            <div class="device-header">
+                                <div class="device-name">
+
+                                    <span class="material-symbols-outlined">
+                                        smartphone
+                                    </span>
+                                    ANDROID-PHONE
+                                </div>
+                                <span class="material-symbols-outlined expand-arrow">
+                                    expand_more
+                                </span>
+                            </div>
+                            <div class="device-status online-status">
+                                Online
+                            </div>
+                            <div class="device-ip">
+                                192.168.1.30
+                            </div>
+
+                            <div class="device-extra">
+
+                                <div>OS: Android 13</div>
+
+                                <div>Uptime: 3h 45m</div>
+                            </div>
+                        </div>
+
+                        <div
+                            class="device-card"
+                            data-name="LIVINGROOM-TV"
+                            data-ip="192.168.1.40"
+                            data-status="Offline"
+                        >
+                            <div class="device-header">
+                                <div class="device-name">
+
+                                    <span class="material-symbols-outlined">
+                                        tv
+                                    </span>
+                                    LIVINGROOM-TV
+                                </div>
+                                <span class="material-symbols-outlined expand-arrow">
+                                    expand_more
+                                </span>
+                            </div>  
+                            <div class="device-status offline-status">
+                                Offline
+                            </div>
+                            <div class="device-ip">
+                                192.168.1.40
+                            </div>
+
+                            <div class="device-extra">
+
+                                <div>OS: Tizen 6.0</div>
+
+                                <div>Uptime: 12h 30m</div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+
+                    
+                </div>
+
+                <div class="add-device-btn">
+                    Add Device
+                </div>
+
+                <div class="monitor-panel">
+                    <div class="panel-header">
+                        <span class="material-symbols-outlined">
+                            monitoring
+                        </span>
+                        Monitor Usage
+                    </div>
+
+
+
+                    <div class="monitor-content">
+
+
+                        <div class="monitor-card">
+                            CPU Usage
+                        </div>
+                        <div class="monitor-card">
+                            Ram Usage
+                        </div>
+                        <div class="monitor-card">
+                            Network Usage
+                        </div>
+                        <div class="monitor-card">
+                            GPU Usage
+                        </div>
+
+
+
+                    </div>
+
+
+
+                </div>
+
+
+
+            </div>
+            
+            
+            
+        </div>
+
+
+        <div class="sidebar-toggle">
+            ◀
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="workspace">
+
+            <div class="workspace-content">
+
+
+
+
+                <div id="explorer-page">
+
+
+                
+                    <div class="device-info-bar">
+
+
+                        <div class="device-info-left">
+
+                            <div class="device-icon">
+                                PC
+                            </div>
+
+                            <div class="device-details">
+
+                                <div
+                                    class="device-name"
+                                    id="selected-device-name"
+                                >
+                                    OFFICE-PC-01
+                                </div>
+
+                                <div
+                                    id="selected-device-info"
+                                >
+                                    192.168.1.5 • Windows 11 Pro • Online
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+
+                        <div class="device-info-right">
+                            <button class="info-btn">
+                                Refresh
+                            </button>
+
+                            <button class="info-btn">
+                                Info
+                            </button>
+                        </div>
+
+                                                    
+                    </div>
+                
+                                
+                    <div class="path-bar">
+
+                        <div class="path-left">
+
+                            <button class="path-btn">
+                                <span class="material-symbols-outlined">
+                                    arrow_back
+                                </span>
+                                
+                            </button>
+
+                            <button class="path-btn">
+                                <span class="material-symbols-outlined">
+                                    arrow_forward
+                                </span>
+                                
+                            </button>
+
+                            <button class="path-btn">
+                                <span class="material-symbols-outlined">
+                                    arrow_upward
+                                </span>
+                                
+                            </button>
+
+                            <button class="path-btn">
+                                <span class="material-symbols-outlined">
+                                    refresh
+                                </span>
+                                
+                            </button>
+
+
+
+                            <div class="current-path">
+
+                                This PC > Local Disk (C:) > Users > Admin
+
+                            </div>                   
+                    
+                        </div>
+
+
+                        <div class="path-right">
+
+                            <button class="path-btn">
+                                Upload
+                            </button>
+
+                            <button class="path-btn">
+                                Download
+                            </button>
+
+                            <button class="path-btn">
+                                List
+                            </button>
+
+                            <button class="path-btn">
+                                Grid
+                            </button>
+
+                            <button class="path-btn">
+                                New Folder
+                            </button>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="file-area">
+
+                        <div class="file-card">
+                            <span class="file-icon"></span>
+
+                            <div class="file-name">
+                                Desktop
+                            </div>
+                        </div>
+
+                        <div class="file-card">
+                            <span class="file-icon"></span>
+                            <div class="file-name">
+                                Documents
+                            </div>
+                        </div>
+
+                        <div class="file-card">
+                            <span class="file-icon"></span>
+                            <div class="file-name">
+                                Downloads
+                            </div>
+                        </div>
+
+                        <div class="file-card">
+                            <span class="file-icon"></span>
+                            <div class="file-name">
+                                Pictures
+                            </div>
+                        </div>
+
+                        <div class="file-card">
+                            <span class="file-icon"></span>
+                            <div class="file-name">
+                                notes.txt
+                            </div>
+                        </div>
+
+                        <div class="file-card">
+                            <span class="file-icon"></span>
+                            <div class="file-name">
+                                report.pdf
+                            </div>
+                        </div>
+
+                        <div class="file-card">
+                            <span class="file-icon"></span>
+                            <div class="file-name">
+                                config.json
+                            </div>
+                        </div>
+                        
+
+                        <div class="file-card">
+                            <span class="file-icon"></span>
+                            <div class="file-name">
+                                data.xlsx
+                            </div>
+                        </div>
+
+                        <div class="file-card">
+                            <span class="file-icon"></span>
+                            <div class="file-name">
+                                presentation.pptx
+                            </div>
+                        </div>
+                        
+
+                        <div class="file-card">
+                            <span class="file-icon"></span>
+                            <div class="file-name">
+                                Music
+                            </div>
+                        </div>
+
+                        <div class="file-card">
+                            <span class="file-icon"></span>
+                            <div class="file-name">
+                                Videos
+                            </div>
+                        </div>
+                        
+
+                        <div class="file-card">
+                            <span class="file-icon"></span>
+                            <div class="file-name">
+                                Projects
+                            </div>
+                        </div>
+
+                        <div class="file-card">
+                            <span class="file-icon"></span>
+                            <div class="file-name">
+                                Archive.zip
+                            </div>
+                        </div>
+
+                        <div class="file-card">
+                            <span class="file-icon"></span>
+                            <div class="file-name">
+                                Script.js
+                            </div>
+                        </div>
+
+                        <div class="file-card">
+                            <span class="file-icon"></span>
+                            <div class="file-name">
+                                Meawwdarc**d
+                            </div>
+                        </div>
+
+                        <div class="file-card">
+                            <span class="file-icon"></span>
+                            <div class="file-name">
+                                cat corn
+                            </div>
+                        </div>
+
+                        <div class="file-card">
+                            <span class="file-icon"></span>
+                            <div class="file-name">
+                                doge.xlsx
+                            </div>
+                        </div>
+
+                        <div class="file-card">
+                            <span class="file-icon"></span>
+                            <div class="file-name">
+                                Documents
+                            </div>
+                        </div>
+
+                        <div class="file-card">
+                            <span class="file-icon"></span>
+                            <div class="file-name">
+                                Downloads
+                            </div>
+                        </div>
+
+                        <div class="file-card">
+                            <span class="file-icon"></span>
+                            <div class="file-name">
+                                Pictures
+                            </div>
+                        </div>
+
+                        <div class="file-card">
+                            <span class="file-icon"></span>
+                            <div class="file-name">
+                                notes.txt
+                            </div>
+                        </div>
+
+                        <div class="file-card">
+                            <span class="file-icon"></span>
+                            <div class="file-name">
+                                report.pdf
+                            </div>
+                        </div>
+
+                        <div class="file-card">
+                            <span class="file-icon"></span>
+                            <div class="file-name">
+                                config.json
+                            </div>
+                        </div>
+                        
+
+                        <div class="file-card">
+                            <span class="file-icon"></span>
+                            <div class="file-name">
+                                data.xlsx
+                            </div>
+                        </div>
+
+                        <div class="file-card">
+                            <span class="file-icon"></span>
+                            <div class="file-name">
+                                presentation.pptx
+                            </div>
+                        </div>
+                        
+
+                        <div class="file-card">
+                            <span class="file-icon"></span>
+                            <div class="file-name">
+                                Music
+                            </div>
+                        </div>
+
+                        <div class="file-card">
+                            <span class="file-icon"></span>
+                            <div class="file-name">
+                                Documents
+                            </div>
+                        </div>
+
+                        <div class="file-card">
+                            <span class="file-icon"></span>
+                            <div class="file-name">
+                                Downloads
+                            </div>
+                        </div>
+
+                        <div class="file-card">
+                            <span class="file-icon"></span>
+                            <div class="file-name">
+                                Pictures
+                            </div>
+                        </div>
+
+                        <div class="file-card">
+                            <span class="file-icon"></span>
+                            <div class="file-name">
+                                notes.txt
+                            </div>
+                        </div>
+
+                        <div class="file-card">
+                            <span class="file-icon"></span>
+                            <div class="file-name">
+                                report.pdf
+                            </div>
+                        </div>
+
+                        <div class="file-card">
+                            <span class="file-icon"></span>
+                            <div class="file-name">
+                                config.json
+                            </div>
+                        </div>
+                        
+
+                        <div class="file-card">
+                            <span class="file-icon"></span>
+                            <div class="file-name">
+                                data.xlsx
+                            </div>
+                        </div>
+
+                        <div class="file-card">
+                            <span class="file-icon"></span>
+                            <div class="file-name">
+                                presentation.pptx
+                            </div>
+                        </div>
+                        
+
+                        <div class="file-card">
+                            <span class="file-icon"></span>
+                            <div class="file-name">
+                                Music
+                            </div>
+                        </div>
+
+                        <div class="file-card">
+                            <span class="file-icon"></span>
+                            <div class="file-name">
+                                Documents
+                            </div>
+                        </div>
+
+                        <div class="file-card">
+                            <span class="file-icon"></span>
+                            <div class="file-name">
+                                Downloads
+                            </div>
+                        </div>
+
+                        <div class="file-card">
+                            <span class="file-icon"></span>
+                            <div class="file-name">
+                                Pictures
+                            </div>
+                        </div>
+
+                        <div class="file-card">
+                            <span class="file-icon"></span>
+                            <div class="file-name">
+                                notes.txt
+                            </div>
+                        </div>
+
+                        <div class="file-card">
+                            <span class="file-icon"></span>
+                            <div class="file-name">
+                                report.pdf
+                            </div>
+                        </div>
+
+                        <div class="file-card">
+                            <span class="file-icon"></span>
+                            <div class="file-name">
+                                config.json
+                            </div>
+                        </div>
+                        
+
+                        <div class="file-card">
+                            <span class="file-icon"></span>
+                            <div class="file-name">
+                                data.xlsx
+                            </div>
+                        </div>
+
+                        <div class="file-card">
+                            <span class="file-icon"></span>
+                            <div class="file-name">
+                                presentation.pptx
+                            </div>
+                        </div>
+                        
+
+                        <div class="file-card">
+                            <span class="file-icon"></span>
+                            <div class="file-name">
+                                Music
+                            </div>
+                        </div>
+
+
+
+
+                    </div>
+
+
+
+                </div>
+
+
+
+                <div id="screencast-page" class="workspace-page">
+
+                    <div class="screencast-toolbar">
+
+                        <button class="screen-btn">
+                            <span class="material-symbols-outlined">
+                                play_arrow
+                            </span>
+                            Start Live
+                        </button>
+
+                        <button class="screen-btn">
+                            <span class="material-symbols-outlined">
+                                stop
+                            </span>
+                            Stop Live
+                        </button>
+
+                        <button class="screen-btn">
+                            <span class="material-symbols-outlined">
+                                videocam
+                            </span>
+                            Record
+                        </button>
+
+                        <button class="screen-btn">
+                            <span class="material-symbols-outlined">
+                                camera
+                            </span>
+                            Screenshot
+                        </button>
+
+                        <button class="screen-btn">
+                            <span class="material-symbols-outlined">
+                                refresh
+                            </span>
+                            Refresh
+                        </button>
+
+                        <button class="screen-btn">
+                            <span class="material-symbols-outlined">
+                                fullscreen
+                            </span>
+                            Fullscreen
+                        </button>
+
+                    </div>
+
+
+                    <div class="screen-view">
+
+                        Remote Screen Area
+
+                    </div>
+
+
+                </div>
+
+
+
+                <div id="shell-page" class="workspace-page">
+
+                    <div class="shell-toolbar">
+
+                        <button class="shell-btn">
+                            <span class="material-symbols-outlined">
+                                cable
+                            </span>
+                            Connect
+                        </button>
+
+                        <button class="shell-btn">
+                            <span class="material-symbols-outlined">
+                                delete_sweep
+                            </span>
+                            Clear
+                        </button>
+
+                        <button class="shell-btn">
+                            <span class="material-symbols-outlined">
+                                save
+                            </span>
+                            Save
+                        </button>
+
+                    </div>
+
+                    <div class="shell-output">
+
+                        <div class="terminal-text">
+
+                            C:\Users\Admin> Welcome
+
+                        </div>
+
+                    </div>
+
+                    <div class="shell-input-bar">
+
+                        <textarea                            
+                            class="shell-input"
+                            placeholder="Enter command..."
+                        ></textarea>
+
+                        <button class="shell-run-btn">
+                            <span class="material-symbols-outlined">
+                                play_arrow
+                            </span>
+                            Run
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+
+                <div id="audio-page" class="workspace-page">
+
+                    <div class="audio-toolbar">
+
+                        <button class="audio-btn">
+                            <span class="material-symbols-outlined">
+                                play_arrow
+                            </span>
+                            Start
+                        </button>
+
+                        <button class="audio-btn">
+                            <span class="material-symbols-outlined">
+                                stop
+                            </span>
+                            Stop
+                        </button>
+
+                        <button class="audio-btn">
+                            <span class="material-symbols-outlined">
+                                mic
+                            </span>
+                            Record
+                        </button>
+
+                        <button class="audio-btn toggle-btn">
+                            <span class="material-symbols-outlined">
+                                volume_off
+                            </span>
+                            Mute
+                        </button>
+
+                        <button class="audio-btn">
+                            <span class="material-symbols-outlined">
+                                refresh
+                            </span>
+                            Refresh
+                        </button>
+
+                    </div>
+
+                    <div class="audio-output">
+
+                        Audio Stream Area
+
+                    </div>
+
+                </div>
+
+
+
+                <div id="config-page" class="workspace-page">
+
+                    <div class="config-toolbar">
+
+                        <button class="config-btn">
+                            Save
+                        </button>
+
+                        <button class="config-btn">
+                            Reset
+                        </button>
+
+                        <button class="config-btn">
+                            Refresh
+                        </button>
+
+                    </div>
+
+                    <div class="config-content">
+
+                        <div class="config-card">
+                            General Settings
+                        </div>
+
+                        <div class="config-card">
+                            Network Settings
+                        </div>
+
+                        <div class="config-card">
+                            Security Settings
+                        </div>
+
+                        <div class="config-card">
+                            Display Settings
+                        </div>
+
+                        <div class="config-card">
+                            Audio Settings
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                            
+                                
+            </div>
+                    
+        </div>
+
+
+
+
+
+
+
+
+
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>
